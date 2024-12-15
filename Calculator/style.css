@@ -1,0 +1,43 @@
+
+h1{
+    text-align: center;
+
+}
+
+.box{
+    border: 2px solid rgb(148, 135, 135);
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#display{
+    margin: 10px;
+    width: 91%;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    overflow: scroll;
+
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin: 3px;
+    height:50px ;
+    width: 70px;
+
+}
